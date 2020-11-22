@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39111" started-at="2020-11-22T15:10:55 GMT+01:00" finished-at="2020-11-22T15:11:34 GMT+01:00">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39111" started-at="2020-11-22T15:10:55 GMT+01:00" finished-at="2020-11-22T15:11:34 GMT+01:00">
+      <class name="demo.TestDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.TestDemo@799d4f69]" name="setUp" is-config="true" duration-ms="8659" started-at="2020-11-22T15:10:55 GMT+01:00" finished-at="2020-11-22T15:11:04 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:1, instance:demo.TestDemo@799d4f69]" name="testLogin" duration-ms="486" started-at="2020-11-22T15:11:04 GMT+01:00" data-provider="dataForLogin" finished-at="2020-11-22T15:11:04 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sselenium674@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.TestDemo@799d4f69]" name="tearDown" is-config="true" duration-ms="692" started-at="2020-11-22T15:11:04 GMT+01:00" finished-at="2020-11-22T15:11:05 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.TestDemo@799d4f69]" name="setUp" is-config="true" duration-ms="8285" started-at="2020-11-22T15:11:05 GMT+01:00" finished-at="2020-11-22T15:11:13 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:1, instance:demo.TestDemo@799d4f69]" name="testLogin" duration-ms="413" started-at="2020-11-22T15:11:13 GMT+01:00" data-provider="dataForLogin" finished-at="2020-11-22T15:11:13 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sselenium674@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.TestDemo@799d4f69]" name="tearDown" is-config="true" duration-ms="661" started-at="2020-11-22T15:11:13 GMT+01:00" finished-at="2020-11-22T15:11:14 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.TestDemo@799d4f69]" name="setUp" is-config="true" duration-ms="7041" started-at="2020-11-22T15:11:14 GMT+01:00" finished-at="2020-11-22T15:11:21 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testHomePage()[pri:2, instance:demo.TestDemo@799d4f69]" name="testHomePage" duration-ms="11406" started-at="2020-11-22T15:11:21 GMT+01:00" finished-at="2020-11-22T15:11:33 GMT+01:00">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertFalse(Assert.java:64)
+at org.junit.Assert.assertFalse(Assert.java:74)
+at demo.TestDemo.testHomePage(TestDemo.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.TestDemo@799d4f69]" name="tearDown" is-config="true" duration-ms="884" started-at="2020-11-22T15:11:33 GMT+01:00" finished-at="2020-11-22T15:11:34 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.TestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
